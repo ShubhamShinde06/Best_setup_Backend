@@ -9,6 +9,6 @@ const storage = multer.diskStorage({
         // (Math.random() * 1E9)
         cb(null, file.originalname)
     }
-})//1.2
+})//11.2
 
-export const upload = multer({ storage, })//1.3
+export const upload = multer({ storage, })//11.3
